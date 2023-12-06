@@ -62,6 +62,7 @@
   letter-spacing: 0.15rem;
 }
 
+/* Sobre Min */
 .about-me-content {
   display: flex;
   align-items: center;
@@ -71,7 +72,44 @@
 .about-me-content p {
   line-height: 2rem;
   color: #fff;
-  
+}
+
+/*  Skills  */
+.skills-content {
+  margin-top: 108px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-item {
+  background-color: #202020;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-content .skill-item{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.skill-item p {
+  color: white;
+  opacity: 75%;
+}
+.skill-item span {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: white;
+}
+.skill-item img {
+  width: 150px;
+  height: 150px;
 }
 /* Utilities */
 
